@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head prefix="og: http://ogp.me/ns#">
+<head>
     <link href="/style/indexstyle.css" rel="stylesheet">
     <title> TITRE </title>
 
@@ -14,17 +14,17 @@
 <body>
     <div class="homepage">
         <div class="homepage__left">
-            <section class="homepage__left--tilte">
-                <h1>TITRE</h1>
-                <p>SOUS TITRE</p>
+            <section class="homepage__left--title">
+                <h1>AVATAR BLOUP</h1>
+                <p>Écrit et Produit par la Gadget’o Prod</p>
             </section>
-            <menu class="homepage__left--menu">
-                <li><a href="">Le Film</a></li>
-                <li><a href="">L'Équipe</a></li>
-                <li><a href="">Le Genre</a></li>
-                <li><a href="">Le Processus</a></li>
-                <li><a href="">Le Making-off</a></li>
-            </menu>
+            <div class="homepage__left--menu">
+                <a href="#category__film">Le Film</a>
+                <a href="#category__team">L' Équipe</a>
+                <a href="#category__genre">Le Genre</a>
+                <a href="#category__processus">Le Processus</a>
+                <a href="#category__makingoff">Le Making-off</a>
+            </div>
         </div>
 
         <div class="homepage__right">
@@ -34,65 +34,70 @@
     </div>
 
     <section class="category">
-        <section class="category__film">
+        <section id="category__film" class="category__paragraphe">
             <h2>LE FILM</h2>
-            <div class="category__film--element">
-                <video controls width="250">
-                    <source src="images/vid.mp4"
+            <div class="category--element">
+                <video controls width="950">
+                    <source src="images/omori-final-duet-be-like.mp4"
                             type="video/mp4">
                 </video>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam nesciunt laudantium voluptates possimus qui temporibus doloremque repudiandae porro non commodi, earum, ipsa expedita eum soluta excepturi autem ex iste!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam nesciunt laudantium voluptates possimus qui temporibus doloremque repudiandae porro non commodi, earum, ipsa expedita eum soluta excepturi autem ex iste! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nihil eos harum maxime fugiat culpa, commodi adipisci. Molestias quia repellendus laborum consequuntur consequatur quo dignissimos est non nobis, dicta hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nam quaerat quam quibusdam placeat sed non quos illo omnis, similique eum debitis velit laudantium voluptatum ea quae vero saepe ipsum.</p>
             </div>
         </section>
 
-        <section class="category__team">
+        <section id="category__team" class="category__paragraphe">
             <h2>L'ÉQUIPE</h2>
-            <div class="category__team--element">
+            <div id="category__team--people">
                 <div class="category__team--element--people">
                     <img src="images/avatar.png" alt="avatar">
                     <a href="">Prénom NOM</a>
+                    <p>Rôle</p>
                 </div>
                 <div class="category__team--element--people">
                     <img src="images/avatar.png" alt="avatar">
                     <a href="">Prénom NOM</a>
+                    <p>Rôle</p>
                 </div>
                 <div class="category__team--element--people">
                     <img src="images/avatar.png" alt="avatar">
                     <a href="">Prénom NOM</a>
+                    <p>Rôle</p>
                 </div>
                 <div class="category__team--element--people">
                     <img src="images/avatar.png" alt="avatar">
                     <a href="">Prénom NOM</a>
+                    <p>Rôle</p>
                 </div>
                 <div class="category__team--element--people">
                     <img src="images/avatar.png" alt="avatar">
                     <a href="">Prénom NOM</a>
+                    <p>Rôle</p>
                 </div>
             </div>
         </section>
 
-        <section class="category__genre">
+        <section id="category__genre" class="category__paragraphe">
             <h2>LE GENRE</h2>
-            <div class="category__genre--element">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet minima praesentium ea adipisci quae vero laudantium? Aperiam eligendi veritatis iusto numquam! Quos nihil eaque doloremque ducimus similique aliquid minus est.</p>
+            <div class="category--element">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet minima praesentium ea adipisci quae vero laudantium? Aperiam eligendi veritatis iusto numquam! Quos nihil eaque doloremque ducimus similique aliquid minus est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, et eum! Sed quaerat amet, tempora impedit ex repellendus quo soluta magnam quae. Veritatis ratione possimus ipsam dolores quod, accusamus ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia animi ab consequuntur quaerat itaque iusto optio, ea maxime ducimus, quos aliquid velit, reprehenderit accusamus amet dolorem aspernatur? Quas, laboriosam!</p>
                 <img src="images/frise.jpeg" alt="">
-                <p></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quidem eaque, libero culpa distinctio quod odit iure accusantium enim earum ratione atque voluptatum vel, autem unde labore magni sapiente cupiditate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus, qui illo, maiores impedit aliquid corrupti quod ea sit autem doloribus nobis fugiat debitis beatae! Cupiditate facilis repellat explicabo esse?</p>
             </div>
         </section>
 
-        <section class="category__processus">
+        <section id="category__processus" class="category__paragraphe">
             <h2>LE PROCESSUS</h2>
-            <div class="category__processus--element">
+            <div class="category--element">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam ipsum incidunt illum adipisci, quae sint! Consequuntur, magnam voluptatem odio cumque officiis quos quam ab veniam vitae explicabo sequi repellat!
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nisi iure excepturi fugiat doloremque doloribus dolorem amet, possimus, distinctio tempore ad vel veritatis placeat dicta modi iusto unde magnam fuga!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nisi iure excepturi fugiat doloremque doloribus dolorem amet, possimus, distinctio tempore ad vel veritatis placeat dicta modi iusto unde magnam fuga! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas labore sed distinctio totam? Quasi est itaque ipsam adipisci perspiciatis sequi dolorem sit praesentium exercitationem inventore magnam voluptatibus, obcaecati neque esse?
                 </p>
             </div>
         </section>
 
-        <section class="category__makingoff">
+        <section id="category__makingoff" class="category__paragraphe">
             <h2>LE MAKING-OFF</h2>
-            <div class="category__makingoff--element">
-                <video controls width="250">
+            <div class="category--element">
+                <video controls width="950">
                     <source src="images/vid.mp4"
                             type="video/mp4">
                 </video>

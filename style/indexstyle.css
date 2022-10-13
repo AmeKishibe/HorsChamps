@@ -1,14 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html, body {
-    margin: 0;
     height: 100%;
+    background-color: #272923;
+    color: #FAFAFA;
+    font-family: "Lato";
+    font-size: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+h1{
+    margin: 0 0vh 0 0;
+    font-family: 'Saira Stencil One';
+    font-weight: normal;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage__left{
+    background-color: #272923;
+    filter: drop-shadow(9px -10px 14px rgba(0, 0, 0, 0.562));
+    padding-right: 6.9vw;
     
+}
+
+.homepage__left--title{
+    margin : 3vh 0 10vh 4vw;
+}
+
+
+.homepage__left--tilte p{
+    color: #849959 !important;
+    font-size: 20px;
+}
+ 
+.homepage__left--menu a{
+    color: #FAFAFA;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.homepage__left--menu a :hover{
+    font-weight: 500;
+    text-decoration-color: #849959;
+}
+
+.homepage__left--menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    margin : 0 0 0 6vw;
+
+}
+
+
+
+
+.category {
+    margin: 10vh 17vw 0 17vw;
+}
+
+.category__paragraphe{
+    margin: 0 0 15vh 0;
+}
+
+.category--element{
+    margin: 10vh 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+
+}
+
+
+.category__team--element--people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#category__team--people{
+    display: flex;
+    margin: 10vh 0 5vh 0;
+}
+#category__team--people img{
+    max-width: 60%;
+}
+#category__team--people a{
+    color: #FAFAFA;
+    text-decoration-color: #849959;
 }
 
 
 
 
 
+@media screen and (max-width: 500px) {
 
-.category__team--element--people img {
-    max-width: 8%;
+    .homepage{
+        background-image: url("../images/verttestdev.png");
+        flex-direction: column;
+    }
+    .homepage__right img{
+        display: none;
+    }
+    .homepage__left{
+        background-color: rgba(0, 0, 0, 0);
+        filter: none;
+    }
+   
 }
