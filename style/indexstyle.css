@@ -24,6 +24,12 @@ h2{
     font-size: 40px;
     font-weight: 900;
 }
+
+
+
+
+
+
 .test {
     display: flex;
     justify-content: center;
@@ -113,6 +119,7 @@ h2{
 }
 #category__team--people{
     display: flex;
+    justify-content: space-around;
     margin: 10vh 0 5vh 0;
 }
 #category__team--people img{
