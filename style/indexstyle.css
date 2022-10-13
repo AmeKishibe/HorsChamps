@@ -24,7 +24,24 @@ h2{
     font-size: 40px;
     font-weight: 900;
 }
+.test {
+    display: flex;
+    justify-content: center;
 
+}
+.button_solo{
+    color: #FAFAFA;
+    text-decoration-color: #849959;
+    margin-bottom: 15vh !important;
+}
+
+.vid1{
+    width: 950px;
+}
+
+.vid2{
+    width: 950px;
+}
 .homepage{
     display: flex;
     justify-content: space-between;
@@ -123,5 +140,27 @@ h2{
         background-color: rgba(0, 0, 0, 0);
         filter: none;
     }
-   
+
+    .vid1{
+        width: 400px;
+    }
+    
+    .vid2{
+        width: 400px;
+    }
+   .homepage__left--menu{
+    margin-left: 30vw;
+    gap: 2vh;
+    margin-bottom: 7vh;
+   }
+   .category--element img{
+    max-width: 100%;
+   }
+   .category--element{
+    gap: 10vw;
+   }
+   .homepage__left--title{
+    margin : 3vh 0 5vh 4vw;
+}
+
 }
