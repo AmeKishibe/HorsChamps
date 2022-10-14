@@ -116,10 +116,13 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:2vh;
 }
 #category__team--people{
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+
+    justify-content: space-evenly;
     margin: 10vh 0 5vh 0;
 }
 #category__team--people img{
@@ -130,6 +133,12 @@ h2{
     text-decoration-color: #849959;
 }
 
+.people--roles{
+    /* margin-top: 2vh !important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
