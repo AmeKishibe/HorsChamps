@@ -178,5 +178,14 @@ h2{
    .homepage__left--title{
     margin : 3vh 0 5vh 4vw;
 }
+    #category__team--people{
+        flex-direction: column;
+
+    }
+    #category__team--people img{
+        margin-top: 2vh;
+
+    }
+
 
 }
