@@ -26,8 +26,15 @@ h2{
 }
 
 
+h4{
+    font-weight: normal;
 
+}
 
+h3{
+    text-decoration:underline;
+
+}
 
 
 .test {
@@ -109,7 +116,9 @@ h2{
     gap: 3vw;
 
 }
-
+.category--element .element--perso {
+    max-width: 20%;
+}
 
 .category__team--element--people{
     display: flex;
