@@ -49,13 +49,7 @@ h3{
     margin-bottom: 15vh !important;
 }
 
-.vid1{
-    width: 950px;
-}
 
-.vid2{
-    width: 950px;
-}
 .homepage{
     display: flex;
     justify-content: space-between;
@@ -201,6 +195,12 @@ iframe{
     }
     iframe{
         max-width: 100%;
+    }
+    .category--element p{
+        font-size: 15px; 
+    }
+    .category {
+        margin: 10vh 12vw 0 12vw;
     }
 
 }
