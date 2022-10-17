@@ -1,38 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
     background-color: #272923;
     color: #FAFAFA;
     font-family: "Lato";
     font-size: 20px;
 }
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-  }
-h1{
+}
+
+h1 {
     margin: 0 0vh 0 0;
     font-family: 'Saira Stencil One';
     font-weight: normal;
     font-size: 55px;
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-weight: 900;
 }
 
 
-h4{
+h4 {
     font-weight: normal;
 
 }
 
-h3{
-    text-decoration:underline;
+h3 {
+    text-decoration: underline;
     color: #849959;
 
 }
@@ -43,42 +46,44 @@ h3{
     justify-content: center;
 
 }
-.button_solo{
+
+.button_solo {
     color: #FAFAFA;
     text-decoration-color: #849959;
     margin-bottom: 15vh !important;
 }
 
 
-.homepage{
+.homepage {
     display: flex;
     justify-content: space-between;
 }
 
-.homepage__left{
+.homepage__left {
     background-color: #272923;
     filter: drop-shadow(9px -10px 14px rgba(0, 0, 0, 0.562));
     padding-right: 6.9vw;
-    
+
 }
 
-.homepage__left--title{
-    margin : 3vh 0 10vh 4vw;
+.homepage__left--title {
+    margin: 3vh 0 10vh 4vw;
 }
 
 
-.homepage__left--tilte p{
+.homepage__left--tilte p {
     color: #849959 !important;
     font-size: 20px;
 }
- 
-.homepage__left--menu a{
+
+.homepage__left--menu a {
     color: #FAFAFA;
     font-size: 30px;
     text-decoration: none;
-    
+
 }
-.homepage__left--menu a :hover{
+
+.homepage__left--menu a :hover {
     font-weight: 500;
     text-decoration-color: #849959;
 }
@@ -88,7 +93,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     gap: 5vh;
-    margin : 0 0 0 6vw;
+    margin: 0 0 0 6vw;
 
 }
 
@@ -99,11 +104,11 @@ h3{
     margin: 10vh 17vw 0 17vw;
 }
 
-.category__paragraphe{
+.category__paragraphe {
     margin: 0 0 15vh 0;
 }
 
-.category--element{
+.category--element {
     margin: 10vh 0 10vh 0;
     display: flex;
     flex-direction: column;
@@ -111,33 +116,45 @@ h3{
     gap: 3vw;
 
 }
+
+.category__processus--element {
+    margin: 10vh 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3vw;
+}
+
 .category--element .element--perso {
     max-width: 20%;
 }
 
-.category__team--element--people{
+.category__team--element--people {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:2vh;
+    gap: 2vh;
 }
-#category__team--people{
+
+#category__team--people {
     display: flex;
     align-items: flex-start;
 
     justify-content: space-evenly;
     margin: 10vh 0 5vh 0;
 }
-#category__team--people img{
+
+#category__team--people img {
     max-width: 60%;
 }
-#category__team--people a{
+
+#category__team--people a {
     color: #FAFAFA;
     text-decoration-color: #849959;
 }
 
-.people--roles{
+.people--roles {
     /* margin-top: 2vh !important; */
     display: flex;
     flex-direction: column;
@@ -145,60 +162,81 @@ h3{
 }
 
 
-iframe{
-    width : 560px; 
-    height : 315px;
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.title_idea {
+    display: flex;
+    text-decoration: underline;
+}
+
+.title__processus {
+    font-size: 27px;
+    text-decoration:underline;
 }
 
 @media screen and (max-width: 500px) {
 
-    .homepage{
+    .homepage {
         background-image: url("../images/affiche.jpg");
         flex-direction: column;
     }
-    .homepage__right img{
+
+    .homepage__right img {
         display: none;
     }
-    .homepage__left{
+
+    .homepage__left {
         background-color: rgba(0, 0, 0, 0);
         filter: none;
     }
 
-    .vid1{
+    .vid1 {
         width: 400px;
     }
-    
-    .vid2{
+
+    .vid2 {
         width: 400px;
     }
-   .homepage__left--menu{
-    margin-left: 30vw;
-    gap: 2vh;
-    margin-bottom: 7vh;
-   }
-   .category--element img{
-    max-width: 100%;
-   }
-   .category--element{
-    gap: 10vw;
-   }
-   .homepage__left--title{
-    margin : 3vh 0 5vh 4vw;
-}
-    #category__team--people{
+
+    .homepage__left--menu {
+        margin-left: 30vw;
+        gap: 2vh;
+        margin-bottom: 7vh;
+    }
+
+    .category--element img {
+        max-width: 100%;
+    }
+
+    .category--element {
+        gap: 10vw;
+    }
+
+    .homepage__left--title {
+        margin: 3vh 0 5vh 4vw;
+    }
+
+    #category__team--people {
         flex-direction: column;
 
     }
-    #category__team--people img{
+
+    #category__team--people img {
         margin-top: 2vh;
 
     }
-    iframe{
+
+    iframe {
         max-width: 100%;
     }
-    .category--element p{
-        font-size: 15px; 
+
+    .category--element p {
+        font-size: 15px;
     }
+
     .category {
         margin: 10vh 12vw 0 12vw;
     }
